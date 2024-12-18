@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold text-blue-600">
-            <Image src={'/Logo.png'} alt={'logo'} width={100} height={40} className='mr-2'/> 
+            <Image src={'/Logo.png'} alt={'logo'} width={160} height={120} className='mr-2'/> 
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-4">
@@ -77,7 +77,7 @@ export default function Navbar() {
               Contact
             </Link>
            <Link href='/signin'>
-           <button className="bg-blue-500 text-white block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600">
+           <button className="bg-yellow-300 text-black block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600">
               Login
             </button>
            </Link>
